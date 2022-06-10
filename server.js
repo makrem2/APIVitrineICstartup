@@ -44,6 +44,10 @@ app.use("/Images", express.static(path.join("api/Images")));
 
 app.use("/", userRoutes);
 
+app.get("/",(req,res)=>{
+  res.send("hello word")
+})
+
 const categoryrouter = require("./routers/Category-routers");
 app.use("/api/category", categoryrouter);
 
