@@ -4,12 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild":"ng build --prod",
-    "ng":"ng",
-    "start":"node server.js",
-    "build":"ng build",
-    "lint":"ng lint",
-    "e2e":"ng e2e",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Makrem Jebali",
